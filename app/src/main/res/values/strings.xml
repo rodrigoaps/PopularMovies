@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Menu related strings-->
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_detail">Movie Overview</string>
+
+
+    <!-- Extras for DetailActivity -->
+    <string name="poster_address_extra_name">poster_address</string>
+    <string name="title_extra_name">title</string>
+    <string name="synopsis_extra_name">synopsis</string>
+    <string name="user_rating_extra_name">user_rating</string>
+    <string name="release_date_extra_name">release_date</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_title_sort_by">Sort by:</string>
+    <string name="pref_key_sort_by">sort_by</string>
+    <string name="pref_default_value_sort_by">popular</string>
+
+    <!-- Sort by options -->
+    <string-array name="pref_entries_sort_by">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+    <string-array name="pref_values_sort_by">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+
+    <!-- Details Activity -->
+    <string name="movie_title">Movie Title</string>
+    <string name="user_rating_call">User Rating:\n</string>
+    <string name="user_rating">user rating</string>
+    <string name="user_rating_end">/10</string>
+    <string name="release_date_call">Release Date:\n</string>
+    <string name="release_date">release date</string>
+    <string name="synopsis_call">Synopsis:\n</string>
+    <string name="synopsis">Synopsis</string>
+
+</resources>
